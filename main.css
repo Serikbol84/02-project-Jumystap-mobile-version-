@@ -333,6 +333,10 @@ img {
     height: 222px;
 }
 
+.input {
+    max-width: 500px;
+}
+
 .input p{
     margin: 0;
     margin-bottom: 32px;
