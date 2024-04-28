@@ -214,7 +214,7 @@
     }
 
     .submission {
-        min-height: 663px;
+        min-height: 620px;
     }
 
     .container4 {
@@ -235,13 +235,6 @@
         height: 197px;
     }
 
-    .sub-info-tex {
-        text-align: center;
-    }
-
-    .sub-info-box-text p {
-        text-align: center;
-    }
 
     .footer {
         min-width: 360px;
