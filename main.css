@@ -248,7 +248,7 @@ img {
     margin-top: 12px;
 
     font-family: Kanit;
-    font-size: 54px;
+    font-size: clamp(32px, 3.7vw, 54px);
     font-weight: 700;
     line-height: 56px;
     text-align: center;
@@ -313,7 +313,8 @@ img {
 .inputField {
     display: flex;
     width: 100%;
-    min-height: 422px;
+    max-height: 422px;
+    height: 100vh;
 
     /* background: #7856bb; */
 }
@@ -389,7 +390,7 @@ img {
 
 
 .search-btn {
-    width: 133px;
+    min-width: 133px;
     display: inline-block;
     padding: 16px 24px;
 
