@@ -142,19 +142,17 @@ img {
 }
 
 .descr-box {
-    max-width: 515px;
-    height: 366px;
+    max-width: 37%;
+    max-height: 366px;
     display: flex;
     flex-direction: column;
-    padding-right: 20px;
-   
 }
 
 .description-title {
     margin-bottom: 32px;
 
     font-family: Kanit;
-    font-size: 54px;
+    font-size: clamp(32px, 3.7vw, 54px);
     font-weight: 700;
     line-height: 64px;
     text-align: left;
@@ -166,7 +164,7 @@ img {
     margin-bottom: 48px;
 
     font-family: Inter;
-    font-size: 16px;
+    font-size: clamp(14px, 1.4vw, 16px);
     font-weight: 500;
     line-height: 22px;
     text-align: left;
@@ -197,12 +195,14 @@ img {
 }
 
 .descr-img-block {
-
+    max-width: 60%;
+    
 }
 
 .descr-img {
-    width: 619px;
-    height: 420px;
+    width: 100%;
+    /* width: 619px;
+    height: 420px; */
 }
 
 /* ========================================== How it works? ======================================================= */
@@ -329,7 +329,7 @@ img {
 
 .input-box {
     max-width: 760px;
-    min-width: 312px;
+    width: 100%;
     height: 222px;
 }
 
@@ -341,7 +341,7 @@ img {
     margin: 0;
     margin-bottom: 32px;
     font-family: Inter;
-    font-size: 16px;
+    font-size: clamp(14px, 1.4vw, 16px);
     font-weight: 500;
     line-height: 22px;
     text-align: left;
@@ -350,7 +350,7 @@ img {
 
 .input-text {
     font-family: Kanit;
-    font-size: 54px;
+    font-size: clamp(32px, 3.7vw, 54px);
     font-weight: 700;
     line-height: 64px;
     text-align: left;
@@ -363,7 +363,8 @@ img {
 }
 
 .search-text {
-    width: 570px;
+    max-width: 570px;
+    width: 100%;
     height: 50px;
     margin-right: 32px;
 
@@ -417,7 +418,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-wrap: wrap; На потом*/ 
     width: 100%;
     margin-right: 80px;
     margin-left: 80px;
@@ -426,17 +426,17 @@ img {
 }
 
 .sub-box {
+    max-width: 37%;
     align-items: center;
 }
 
 
 
 .sub-img {
-   
+    max-width: 60%;
 }
 
 .sub-info-box {
-    padding-left: 20px;
     max-width: 515px;
     height: auto;
 }
@@ -445,7 +445,7 @@ img {
     margin: 0;
     margin-bottom: 32px;
     font-family: Inter;
-    font-size: 16px;
+    font-size: clamp(14px, 1.4vw, 16px);
     font-weight: 500;
     line-height: 22px;
     text-align: left;
@@ -455,7 +455,7 @@ img {
 .sub-info-tex {
     margin-bottom: 32px;
     font-family: Kanit;
-    font-size: 54px;
+    font-size: clamp(24px, 4.3vw, 54px);
     font-weight: 600;
     line-height: 56px;
     text-align: left;

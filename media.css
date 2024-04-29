@@ -5,13 +5,17 @@
 
 }
 
-@media (max-width: 1175px) {
-    .descr-img {
-        width: 500px;
-        /* height: 420px; */
+@media (max-width: 1230px) {
+    .description-title {
+        line-height: 45px;
     }
 
+    .input-text {
+        line-height: 45px;
+    }
 }
+
+
 
 @media (max-width: 1060px) {
     .box-text {
@@ -20,6 +24,7 @@
 
 }
 
+/* ================================================== 1024 ========================================================= */
 @media (max-width: 1024px) {
     .container {
         margin-right: 40px;
@@ -51,12 +56,10 @@
     }
 
     .description-title {
-        font-size: 32px;
         line-height: 38.4px;
     }
 
     .descr-box p {
-        font-size: 14px;
         line-height: 18px;
     }
 
@@ -79,105 +82,36 @@
         line-height: 24px;
     }
 
-    .input p{
-        font-size: 14px;
-        line-height: 18px;
-    }
-
     .input-text {
-        font-size: 24px;
         line-height: 28.8px;
-    }
-
-    .search-text {
-        width: 260px;
     }
 
     .sub-info-tex {
-        font-size: 24px;
-        line-height: 28.8px;
+        line-height: 40px;
     }
 
     .sub-info-box-text p {
-        font-size: 14px;
         line-height: 18px;
     }
 }
+
+
 /* ============================================== 768 ===================================================== */
 @media (max-width: 768px) {
-    .container {
-        margin-right: 24px;
-        margin-left: 24px;
-    }
 
-    .header-menu {
-        justify-content: right;
-    }
 
-    .header-menu-list {
-        display: none;
-    }
 
-    .container1 {
-        margin-right: 24px;
-        margin-left: 24px;
-        flex-direction: column-reverse;
-        justify-content: unset;
-        height: 620px;
-    }
 
-    .descr-box {
-        padding: 0;
-        margin-top: 54px;
-        align-items: center;
-        /* max-width: 425px;
-        min-width: 312px; */
-       
-    }
 
-    .descr-img-block {
-        padding: 0;
-        display: block;
-        margin-top: 32px;
-    }
 
-    .descr-img {
-        width: 312px;
-        height: 210px;
-    }
 
-    .description-title {
-        text-align: center;
-    }
 
-    .descr-box p {
-        text-align: center;
-    }
+
+
+
 
    
-    .container2 {
-        margin-right: 24px;
-        margin-left: 24px;
-    }
-
-    .info-box {
-        margin-top: 54px;
-        margin-bottom: 54px;
-    }
-
-    .box-123 {
-        margin-bottom: 54px;
-        height: 440px;
-        flex-direction: column;
-        
-        justify-content: left;
-        justify-content: space-between;
-    }
-
-    .icon {
-        margin-bottom: 24px;
-    }
-
+    
 
     .inputField {
         height: 387px;
@@ -195,22 +129,8 @@
         margin-top: 54px;
     }
 
-    .input-text {
-        text-align: center;
-    }
-
-    .input p{
-        text-align: center;
-    }
-
-    .search-field {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .search-text {
-        margin: 0;
-        margin-bottom: 32px;
+    .input p {
+        line-height: 18px;
     }
 
     .submission {
@@ -228,11 +148,13 @@
         width: 312px;
     }
 
+    .sub-box {
+        width: 312px;
+    }
+
     .sub-info-box {
         padding: 0;
         margin-top: 128px;
-        width: 312px;
-        height: 197px;
     }
 
 
@@ -279,4 +201,74 @@
     }
 }
 
-/* ========================================================================================= */
+@media (max-width: 630px) {
+    .header-menu-list {
+        display: none;
+    }
+}
+/* ======================================== 360 ================================================= */
+@media (max-width: 360px) {
+    /* Header */
+    .container {
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+
+    .header-menu {
+        justify-content: right;
+    }
+
+    /* Description */
+    .container1 {
+        margin-right: 24px;
+        margin-left: 24px;
+        flex-direction: column-reverse;
+    }
+
+    .descr-img-block {
+        max-width: 312px;
+        margin-top: 32px;
+    }
+
+    .descr-box {
+        max-width: 312px;
+        margin-top: 54px;
+        margin-bottom: 32px;
+        align-items: center;
+    }
+
+    .description-title {
+        text-align: center;
+        line-height: 38.4px;
+    }
+
+    .descr-box p {
+        text-align: center;
+        line-height: 18px;
+    }
+
+    /* How it works */
+    .container2 {
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+
+    .info-box {
+        margin-top: 54px;
+        margin-bottom: 54px;
+    }
+
+    .box-123 {
+        margin-bottom: 54px;
+        height: 440px;
+        flex-direction: column;
+        
+        justify-content: left;
+        justify-content: space-between;
+    }
+
+    .icon {
+        margin-bottom: 24px;
+    }
+
+}
