@@ -258,8 +258,6 @@ img {
     width: 100%;
     height: auto;
     display: flex;
-    /* flex-wrap: wrap; */
-    /* flex-direction: row; */
     justify-content: space-between;
 }
 
@@ -291,23 +289,16 @@ img {
 .box-text {
     margin-bottom: 24px;
     font-family: Inter;
-    font-size: 24px;
+    font-size: clamp(20px, 1.8vw, 24px);
     font-weight: 700;
     line-height: 28px;
     text-align: left;
 }
 
-.show-1 {
-    max-width: 400px;
+.show-1, .search-2, .find-3 {
+    max-width: 30%;
 }
 
-.search-2 {
-    max-width: 400px;
-}
-
-.find-3 {
-    max-width: 400px;
-}
 
 /* ========================================== Input Field ======================================================= */
 .inputField {
@@ -526,7 +517,7 @@ img {
     display: flex;
     align-items: center;
     height: 100%;
-   
+
     font-family: Inter;
     font-size: 14px;
     font-weight: 500;
@@ -555,12 +546,12 @@ img {
     display: flex;
     align-items: center;
     height: 100%;
-
+    max-width: 61%;
     font-family: Inter;
     font-size: 14px;
     font-weight: 500;
     line-height: 18px;
-    text-align: center;
+    text-align: right;
 
     color: rgb(133, 135, 137);
 }

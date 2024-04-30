@@ -1,31 +1,45 @@
-@media (max-width: 1311px) {
-    .footer-menu-2 {
-        text-align: right;
-    }
-
-}
-
-@media (max-width: 1230px) {
-    .description-title {
-        line-height: 45px;
-    }
-
-    .input-text {
-        line-height: 45px;
-    }
-}
-
-
-
-@media (max-width: 1060px) {
-    .box-text {
-        padding-right: 20px;
-    }
-
-}
-
 /* ================================================== 1024 ========================================================= */
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
+    .container, .container1, .container2, .container3, .container4, .container5{
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+
+    .descr-box p, .box-123 p, .input p, .sub-info-box-text p {
+        line-height: 20px;
+    }
+
+    .description-title, .input-text, .sub-info-tex {
+        line-height: 45px;
+    }
+
+    .box-text {
+        line-height: 24px;
+    }
+}
+
+/* ================================================== 880 ======================================================== */
+@media (max-width: 880px) {
+    .icon {
+        width: 42px;
+        height: 42px;
+    }
+
+    .footer-menu {
+        margin-top: 0;
+        flex-direction: column;
+        align-items: unset;
+        height: 155px;
+    }
+
+    .footer-menu-2 {
+        max-width: none;
+        text-align: left;
+    }
+}
+
+/* ============================================== 768 ===================================================== */
+@media (max-width: 768px) {
     .container, .container1, .container2, .container3, .container4, .container5{
         margin-right: 40px;
         margin-left: 40px;
@@ -35,46 +49,13 @@
         line-height: 38.4px;
     }
 
-    .descr-box p {
-        line-height: 18px;
-    }
-
-    .info {
-        font-size: 32px;
-    }
-
-    .icon {
-        width: 42px;
-        height: 42px;
-    }
-
-    .box-123 p{
-        font-size: 14px;
-        line-height: 18px;
-    }
-
-    .box-text {
-        font-size: 20px;
-        line-height: 24px;
-    }
-
-    .input-text {
+    .input-text, .sub-info-tex {
         line-height: 28.8px;
     }
 
-    .sub-info-tex {
-        line-height: 40px;
-    }
-
-    .sub-info-box-text p {
+    .descr-box p, .box-123 p, .input p, .sub-info-box-text p {
         line-height: 18px;
     }
-}
-
-
-/* ============================================== 768 ===================================================== */
-@media (max-width: 768px) {
-  
 }
 
 @media (max-width: 630px) {
@@ -82,54 +63,34 @@
         display: none;
     }
 }
-/* ======================================== 360 ================================================= */
-@media (max-width: 480px) {
-    /* Header */
-    .container {
-        margin-right: 24px;
-        margin-left: 24px;
-    }
 
-    .header-menu {
-        justify-content: right;
-    }
-
-    /* Description */
+/* ========================================= 680 ==================================================== */
+@media (max-width: 680px) {
     .container1 {
-        margin-right: 24px;
-        margin-left: 24px;
         flex-direction: column-reverse;
     }
 
     .descr-img-block {
-        max-width: 312px;
+        max-width: 360px;
         margin-top: 32px;
     }
 
     .descr-box {
-        max-width: 312px;
-        margin-top: 54px;
+        max-width: 85%;
         margin-bottom: 32px;
         align-items: center;
     }
 
     .description-title {
         text-align: center;
-        line-height: 38.4px;
     }
 
     .descr-box p {
         text-align: center;
-        line-height: 18px;
     }
 
-    /* How it works */
-    .container2 {
-        margin-right: 24px;
-        margin-left: 24px;
-    }
-
-    .info-box {
+     /* How it works */
+     .info-box {
         margin-top: 54px;
         margin-bottom: 54px;
     }
@@ -147,22 +108,58 @@
         margin-bottom: 24px;
     }
 
+    .box-text {
+        margin-bottom: 12px;
+        line-height: 24px;
+    }
+
+    .show-1, .search-2, .find-3 {
+        max-width: 100%;
+    }
+
+    /* Submission */
+    .submission {
+        height: 620px;
+    }
+
+    .container4 {
+        flex-direction: column;
+        justify-content: unset;
+    }
+
+    .sub-img {
+        max-width: 360px;
+        margin-top: 64px;
+    }
+
+    .sub-box {
+        max-width: 360px;
+    }
+
+    .sub-info-box {
+        padding: 0;
+        margin-top: 60px;
+    }
+
+    .sub-info-tex {
+        font-size: 24px;
+    }
+}
+
+/* ============================================ 550 ========================================= */
+@media (max-width: 550px) {
     /* Inpit */
     .inputField {
         height: 387px;
     }
 
     .container3 {
-        margin-right: 24px;
-        margin-left: 24px;
         align-items: start;
         justify-content: center;
     }
-
     .input-box {
-        max-width: 312px;
+        max-width: 90%;
         max-height: 333px;
-
     }
 
     .input-text{
@@ -171,7 +168,6 @@
     }
 
     .input p {
-        line-height: 18px;
         text-align: center;
     }
 
@@ -185,19 +181,32 @@
         margin: 0;
         margin-bottom: 32px;
     }
+}
 
-    /* Submission */
-    .submission {
-        min-height: 620px;
-    }
-
-    .container4 {
+/* ======================================== 480 ================================================= */
+@media (max-width: 480px) {
+    .container, .container1, .container2, .container3, .container4, .container5{
         margin-right: 24px;
         margin-left: 24px;
-        flex-direction: column;
-        justify-content: unset;
     }
 
+    /* Description */
+    .descr-img-block {
+        max-width: 312px;
+    }
+
+    .descr-box {
+        max-width: 312px;
+        margin-top: 54px;
+    }
+
+    /* Inpit */
+    .input-box {
+        max-width: 312px;
+        max-height: 333px;
+    }
+
+    /* Submission */
     .sub-img {
         max-width: 312px;
         margin-top: 64px;
@@ -212,50 +221,31 @@
         margin-top: 85px;
     }
 
-    .sub-info-tex {
-        line-height: 28.8px;
-    }
-
     /* Footer */
     .footer {
         width: 100%;
         height: 460px;
-        
-    }
-
-    .container5 {
-        margin-right: 24px;
-        margin-left: 24px;
-        height: 100%;
     }
 
     .footer-menu {
-        margin-top: 0;
-        flex-direction: column;
-        align-items: unset;
-        height: 366px;
+        height: 396px;
     }
 
     .footer-menu-1 {
         flex-direction: column;
         width: 111px;
-        /* height: 226px; */
         line-height: 65px;
     }
 
-    .twitter-img {
+    .home, .about, .how {
+        margin: 0;
+    }
+
+    .twitter-img, .insta-img {
         margin: 16px;
     }
 
-    .insta-img {
-        margin: 16px;
-    }
-
-    .footer-menu-2 {
-        text-align: left;
-    }
-
-    .footer-menu-3 {
+    .footer-menu-2, .footer-menu-3 {
         text-align: left;
     }
 }
